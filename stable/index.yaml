@@ -3,7 +3,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-27T02:28:08.734999762Z"
+    created: "2019-09-27T06:44:00.384365517Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +26,30 @@ entries:
     urls:
     - redis-9.2.0.tgz
     version: 9.2.0
-generated: "2019-09-27T02:28:08.732910925Z"
+  stoneforu:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-27T06:44:00.384701136Z"
+    description: Sample helm chart for study
+    digest: 111b2077a832b2347699ab49806da1b92ad8a567ada4f26ae92ed6dff09978ad
+    engine: gotpl
+    home: https://stoneforu.github.io/helmcharts/stable
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    - stoneforu
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: stoneforu@hanmail.net
+      name: stone
+    - email: stoneforu@gmail.com
+      name: stone
+    name: stoneforu
+    sources:
+    - https://stoneforu.github.io/helmcharts/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - stoneforu-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-09-27T06:44:00.382351255Z"
